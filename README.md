@@ -2,7 +2,7 @@
 
 
 HW-Tools
-
+------------------------------------------------------------------------Log version - noch nicht vollständig. Unterscheidet sich von unten in das jedes mal man "Aktualisieren knopf" druckt, eine .json log datei mit datum und zeit wird auf den directory gespeichert. Dies hier diente um mit branches zu üben, und ich denke nicht es wird, wenigstens von mir, weiter entwickelt. Ich habe es auch "zu mir" geforked, evtl. mache ich da weiter.--------------------------------------------------------------
 
 Beschreibung
 

@@ -1,0 +1,27 @@
+{
+    "CPU": {
+        "Cores": 10
+    },
+    "RAM": {
+        "Total": 15,
+        "Available": 6
+    },
+    "Disks": {
+        "Disk1": {
+            "Device": "C:\\",
+            "Total": 474,
+            "Free": 383
+        }
+    },
+    "Network": {
+        "Sent": 2539,
+        "Received": 10702
+    },
+    "PCI Devices": {
+        "Device1": {
+            "Read": 4739129,
+            "Write": 2656287
+        }
+    },
+    "GPUs": {}
+}
