@@ -12,6 +12,19 @@ def install_module(module_name):
 install_module("psutil")
 install_module("GPUtil")
 
+import subprocess
+
+# Definieren Sie den Befehl, um setuptools zu installieren
+command = ['pip', 'install', 'setuptools']
+
+# Führen Sie den Befehl aus
+try:
+    subprocess.check_call(command)
+    print("setuptools wurde erfolgreich installiert.")
+except subprocess.CalledProcessError as e:
+    print("Fehler beim Installieren von setuptools:", e)
+
+
 # Anschließend können Sie die Module importieren und verwenden
 import psutil
 import GPUtil
@@ -55,6 +68,10 @@ def update_hardware_info():
     for i, gpu in enumerate(gpus):
         gpu_info += f"GPU {i+1}:\nName: {gpu.name}\nAuslastung: {gpu.load * 100:.2f}%\nSpeicherauslastung: {gpu.memoryUtil * 100:.2f}%\nTemperatur: {gpu.temperature}°C\n\n"
     gpu_text.set(gpu_info)
+
+#  # Nach 5 Sekunden erneut aufrufen
+#     fenster.after(5000, update_hardware_info)
+
 
 fenster = Tk()
 fenster.geometry("800x600")
