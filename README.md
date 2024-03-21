@@ -47,14 +47,7 @@ Ziel des Projekts
 Lizenz
 
 
-getestet mit Python 3.11, Python 3.12, Visual Studio Code
-
-
-#Aufgaben:
-#markdown erstellen
-
-
-
+Getestet mit Python 3.11, Python 3.12, Visual Studio Code
 
 https://dillinger.io/
 
