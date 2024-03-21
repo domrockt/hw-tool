@@ -1,6 +1,4 @@
-# hw-tool
-
-Hier die Inhalte für die readme.md:
+# hw-tool:
 
 
 HW-Tools
@@ -18,7 +16,7 @@ Funktionen
 * Benutzerfreundliche Darstellung von CPU-Informationen
 * Benutzerfreundliche Darstellung von RAM-Informationen
 * Benutzerfreundliche Darstellung von Festplatten-Informationen
-
+* Benutzerfreundliche Darstellung von GPU-Informationen
 
 Voraussetzungen
 
@@ -50,8 +48,5 @@ Lizenz
 Getestet mit Python 3.11, Python 3.12, Visual Studio Code
 
 https://dillinger.io/
-
-
-
 
 Bugs: Es können keine IGPUs ausgelesen werden
